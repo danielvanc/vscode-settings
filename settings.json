@@ -1,9 +1,11 @@
 {
-  "workbench.list.openMode": "doubleClick",
   "git.promptToSaveFilesBeforeCommit": "always",
-  "terminal.integrated.macOptionIsMeta": true,
-  "terminal.integrated.copyOnSelection": true,
+
+  "gitlens.keymap": "chorded",
+  
   "npm.enableScriptExplorer": true,
+
+  "emmet.showSuggestionsAsSnippets": true,
   "emmet.includeLanguages": {
     "twig": "html",
     "less": "less",
@@ -11,61 +13,54 @@
     "vue-html": "html",
     "javascript": "javascriptreact"
   },
+
   "files.associations": {
-    "*.html": "twig"
+    "*.html": "twig",
+    "*.js": "javascriptreact"
   },
+
   "git.autofetch": true,
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
+  
   "[html-twig]": {
     "editor.tabSize": 2
   },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false
-  },
+
   "eslint.alwaysShowStatus": true,
+
   "carbon.theme": "dracula",
-  "editor.detectIndentation": false,
+
   "window.title": "${rootName}${separator}${activeEditorLong}",
-  "window.nativeTabs": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
+  
   "php.validate.executablePath": "/usr/bin/php",
-  "php.executablePath": "/usr/bin/php",
-  "emmet.showSuggestionsAsSnippets": true,
-  "editor.snippetSuggestions": "top",
-  "window.zoomLevel": 0,
+  
   "terminal.integrated.fontSize": 14,
-  "editor.tabSize": 2,
-  "explorer.openEditors.visible": 0,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "FiraFlott,Inconsolata-g for Powerline",
-  "terminal.integrated.cursorBlinking": true,
-  "workbench.fontAliasing": "antialiased",
-  "editor.renderWhitespace": "none",
-  "editor.multiCursorModifier": "alt",
-  "editor.formatOnPaste": true,
-  "editor.renderControlCharacters": false,
-  "[twig]": {},
-  "gitlens.keymap": "chorded",
-  "editor.minimap.enabled": false,
-  "editor.cursorStyle": "underline",
-  "editor.formatOnType": true,
-  "editor.fontLigatures": true,
   "terminal.integrated.fontWeightBold": "200",
-  "editor.fontFamily": "'Fira Code',FiraFlott, Inconsolata-g for Powerline, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 15,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.wordWrap": "off",
-  "workbench.activityBar.visible": true,
-  "workbench.colorCustomizations": {
-    "statusBar.foreground": "#ccc",
-    "panel.background": "#252526",
-    "terminal.background": "#252526",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.macOptionIsMeta": true,
+  "terminal.integrated.copyOnSelection": true,
+
+  "editor.multiCursorModifier": "alt",
+  "editor.formatOnSave": false,
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
   },
-  "editor.fontWeight": "400",
+  
+  "editor.fontWeight": "500",
+  "editor.fontFamily": "'Fira Code', Hasklig, Inconsolata, monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+
+
+  "workbench.colorTheme": "Blueberry Banana",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.openMode": "doubleClick",
+
+  "workbench.colorCustomizations": {
+    "editor.foldBackground": "#333",
+  },
 }
