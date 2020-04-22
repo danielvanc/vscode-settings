@@ -5,6 +5,10 @@
   
   "npm.enableScriptExplorer": true,
 
+  "todo-tree.highlights.defaultHighlight": { 
+    "background": ""
+  },
+
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.includeLanguages": {
     "twig": "html",
@@ -54,13 +58,18 @@
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
 
-
-  "workbench.colorTheme": "Blueberry Banana",
+  "workbench.colorTheme": "Monokai Seti",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.fontAliasing": "antialiased",
   "workbench.list.openMode": "doubleClick",
 
   "workbench.colorCustomizations": {
-    "editor.foldBackground": "#333",
+    "editor.foldBackground": "#111",
   },
+  "todohighlight.isEnable": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "breadcrumbs.filePath": "off",
+
+  "breadcrumbs.enabled": false,
+  "editor.tabSize": 2,
 }
