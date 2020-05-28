@@ -2,10 +2,10 @@
   "git.promptToSaveFilesBeforeCommit": "always",
 
   "gitlens.keymap": "chorded",
-  
+
   "npm.enableScriptExplorer": true,
 
-  "todo-tree.highlights.defaultHighlight": { 
+  "todo-tree.highlights.defaultHighlight": {
     "background": ""
   },
 
@@ -24,7 +24,7 @@
   },
 
   "git.autofetch": true,
-  
+
   "[html-twig]": {
     "editor.tabSize": 2
   },
@@ -34,37 +34,32 @@
   "carbon.theme": "dracula",
 
   "window.title": "${rootName}${separator}${activeEditorLong}",
-  
+
   "php.validate.executablePath": "/usr/bin/php",
-  
-  "terminal.integrated.fontSize": 14,
+
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.fontFamily": "FiraFlott,Inconsolata-g for Powerline",
-  "terminal.integrated.fontWeightBold": "200",
+  "terminal.integrated.fontFamily": "'Dank Mono',FiraFlott,Inconsolata-g for Powerline",
+  "terminal.integrated.fontWeightBold": "normal",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.copyOnSelection": true,
 
   "editor.multiCursorModifier": "alt",
-  "editor.formatOnSave": false,
-  "[javascriptreact]": {
-    "editor.formatOnSave": true
-  },
-  
-  "editor.fontWeight": "500",
-  "editor.fontFamily": "'Fira Code', Hasklig, Inconsolata, monospace",
-  "editor.fontSize": 16,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Dank Mono', 'JetBrains Mono', 'Fira Code', Hack,Hasklig, Inconsolata, monospace",
+  "editor.fontSize": 19,
   "editor.fontLigatures": true,
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
 
-  "workbench.colorTheme": "Monokai Seti",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.fontAliasing": "antialiased",
+  "workbench.colorTheme": "Moonlight Italic",
+  "workbench.iconTheme": "helium-icon-theme",
   "workbench.list.openMode": "doubleClick",
 
   "workbench.colorCustomizations": {
-    "editor.foldBackground": "#111",
+    "editor.foldBackground": "#000"
   },
   "todohighlight.isEnable": true,
   "todo-tree.tree.showScanModeButton": false,
@@ -72,4 +67,21 @@
 
   "breadcrumbs.enabled": false,
   "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+
+  "window.zoomLevel": 0,
+  "jest.showCoverageOnLoad": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "materialTheme.accent": "Remove accents",
+  "terminal.integrated.lineHeight": 0,
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontWeight": "500",
+  "vscode_custom_css.imports": [
+    // "file:///Users/dan/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/synthwave-x-fluoromachine.css"
+    // "file:///Users/dan/vscodestyles/synthwave84.css"
+    "file:///Users/dan/vscodestyles/moonlight.css"
+  ],
+  "vscode_custom_css.policy": true
 }
