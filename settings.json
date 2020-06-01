@@ -37,10 +37,10 @@
 
   "php.validate.executablePath": "/usr/bin/php",
 
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "'Dank Mono',FiraFlott,Inconsolata-g for Powerline",
-  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.fontWeightBold": "700",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.copyOnSelection": true,
@@ -54,34 +54,29 @@
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
 
-  "workbench.colorTheme": "Moonlight Italic",
+  "workbench.colorTheme": "Moonlight II Italic",
   "workbench.iconTheme": "helium-icon-theme",
   "workbench.list.openMode": "doubleClick",
 
   "workbench.colorCustomizations": {
-    "editor.foldBackground": "#000"
+    // "editor.foldBackground": "#000"
   },
   "todohighlight.isEnable": true,
   "todo-tree.tree.showScanModeButton": false,
-  "breadcrumbs.filePath": "off",
 
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "editor.tabSize": 2,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
 
   "window.zoomLevel": 0,
   "jest.showCoverageOnLoad": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "materialTheme.accent": "Remove accents",
   "terminal.integrated.lineHeight": 0,
   "workbench.fontAliasing": "antialiased",
-  "editor.fontWeight": "500",
-  "vscode_custom_css.imports": [
-    // "file:///Users/dan/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/synthwave-x-fluoromachine.css"
-    // "file:///Users/dan/vscodestyles/synthwave84.css"
-    "file:///Users/dan/vscodestyles/moonlight.css"
-  ],
-  "vscode_custom_css.policy": true
+  "vscode_custom_css.imports": ["file:///Users/dan/vscodestyles/moonlight.css"],
+  "vscode_custom_css.policy": true,
+  "workbench.panel.defaultLocation": "left",
+  "terminal.external.osxExec": "iTerm2.app"
 }
