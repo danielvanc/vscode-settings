@@ -59,7 +59,7 @@
   "workbench.list.openMode": "doubleClick",
 
   "workbench.colorCustomizations": {
-    // "editor.foldBackground": "#000"
+    "terminal.border": "#434976"
   },
   "todohighlight.isEnable": true,
   "todo-tree.tree.showScanModeButton": false,
@@ -70,13 +70,17 @@
 
   "window.zoomLevel": 0,
   "jest.showCoverageOnLoad": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
   "terminal.integrated.lineHeight": 0,
   "workbench.fontAliasing": "antialiased",
   "vscode_custom_css.imports": ["file:///Users/dan/vscodestyles/moonlight.css"],
   "vscode_custom_css.policy": true,
-  "workbench.panel.defaultLocation": "left",
-  "terminal.external.osxExec": "iTerm2.app"
+  "workbench.panel.defaultLocation": "right",
+  "terminal.external.osxExec": "iTerm2.app",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.fontWeight": "bold"
 }
