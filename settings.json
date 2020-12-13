@@ -3,12 +3,6 @@
 
   "gitlens.keymap": "chorded",
 
-  "npm.enableScriptExplorer": true,
-
-  "todo-tree.highlights.defaultHighlight": {
-    "background": ""
-  },
-
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.includeLanguages": {
     "twig": "html",
@@ -34,13 +28,11 @@
   "carbon.theme": "dracula",
 
   "window.title": "${rootName}${separator}${activeEditorLong}",
-
   "php.validate.executablePath": "/usr/bin/php",
 
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "'Dank Mono',FiraFlott,Inconsolata-g for Powerline",
-  "terminal.integrated.fontWeightBold": "700",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.copyOnSelection": true,
@@ -49,13 +41,16 @@
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Dank Mono', 'JetBrains Mono', 'Fira Code', Hack,Hasklig, Inconsolata, monospace",
-  "editor.fontSize": 19,
+  "editor.fontSize": 18,
   "editor.fontLigatures": true,
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
-
-  "workbench.colorTheme": "Moonlight II Italic",
   "workbench.iconTheme": "helium-icon-theme",
+
+  // "material-icon-theme.folders.color": "#8695b7",
+  // "material-icon-theme.folders.theme": "specific",
+  // "material-icon-theme.hidesExplorerArrows": true,
+
   "workbench.list.openMode": "doubleClick",
 
   "workbench.colorCustomizations": {
@@ -70,17 +65,27 @@
 
   "window.zoomLevel": 0,
   "jest.showCoverageOnLoad": true,
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
-  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "terminal.integrated.lineHeight": 0,
-  "workbench.fontAliasing": "antialiased",
-  "vscode_custom_css.imports": ["file:///Users/dan/vscodestyles/moonlight.css"],
-  "vscode_custom_css.policy": true,
+  // "vscode_custom_css.imports": ["file:///Users/danvancuylenburg/vscodestyles/moonlight.css"],
+  // "vscode_custom_css.policy": true,
   "workbench.panel.defaultLocation": "right",
   "terminal.external.osxExec": "iTerm2.app",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.enableBell": true,
-  "terminal.integrated.fontWeight": "bold"
+  "workbench.fontAliasing": "antialiased",
+  "debug.console.fontFamily": "'Dank Mono'",
+  "debug.console.fontSize": 16,
+  "workbench.sideBar.location": "left",
+  "projectManager.git.baseFolders": [
+    "/Applications/MAMP/htdocs"
+  ],
+  "python.languageServer": "Microsoft",
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "workbench.colorTheme": "Tokyo City",
+  "workbench.activityBar.visible": true
 }
