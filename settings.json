@@ -13,7 +13,7 @@
   },
 
   "files.associations": {
-    "*.html": "twig",
+    "*.html": "html",
     "*.js": "javascriptreact"
   },
 
@@ -31,7 +31,6 @@
   "php.validate.executablePath": "/usr/bin/php",
 
   "terminal.integrated.fontSize": 15,
-  "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "'Dank Mono',FiraFlott,Inconsolata-g for Powerline",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.macOptionIsMeta": true,
@@ -41,14 +40,13 @@
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Dank Mono', 'JetBrains Mono', 'Fira Code', Hack,Hasklig, Inconsolata, monospace",
-  "editor.fontSize": 19,
+  "editor.fontSize": 17,
   "editor.fontLigatures": true,
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
   "editor.rulers": [70],
 
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Glide",
   "workbench.list.openMode": "doubleClick",
 
   "workbench.colorCustomizations": {
@@ -57,12 +55,22 @@
     "editorRuler.foreground": "#202433"
   },
   "todohighlight.isEnable": true,
-
+  "editor.bracketPairColorization.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "breadcrumbs.enabled": true,
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
-
-  "window.zoomLevel": 0,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "terminal.integrated.lineHeight": 0,
@@ -77,19 +85,38 @@
   "debug.console.fontSize": 16,
   "workbench.sideBar.location": "left",
   "projectManager.git.baseFolders": ["/Applications/MAMP/htdocs"],
-  "python.languageServer": "Microsoft",
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
-  "workbench.editorAssociations": [],
-  "workbench.activityBar.visible": true,
   "eslint.lintTask.enable": true,
-  "editor.accessibilitySupport": "off",
   "workbench.editor.wrapTabs": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.decorations.badges": true,
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
-  "terminal.integrated.serverSpawn": false
+  "terminal.integrated.serverSpawn": false,
   // "editor.semanticHighlighting.enabled": false
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.accessibilitySupport": "off",
+  "browser-preview.startUrl": "http://localhost:3000",
+  "liveServer.settings.useBrowserPreview": true,
+  "workbench.iconTheme": "vscode-icons",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "editor.inlineSuggest.enabled": true,
+  "thunder-client.codeSnippetLanguage": "cs-httpclient"
 }
