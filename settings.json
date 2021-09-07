@@ -52,7 +52,14 @@
   "workbench.colorCustomizations": {
     "statusBar.foreground": "#dedede",
     "terminal.border": "#434976",
-    "editorRuler.foreground": "#202433"
+    "editorRuler.foreground": "#202433",
+    "editorBracketHighlight.foreground1": "#BF616A",
+    "editorBracketHighlight.foreground2": "#D08770",
+    "editorBracketHighlight.foreground3": "#EBCB8B",
+    "editorBracketHighlight.foreground4": "#A3BE8C",
+    "editorBracketHighlight.foreground5": "#B48EAD",
+    "editorBracketHighlight.foreground6": "#88C0D0",
+    "editor.unexpectedBracket.foreground": "#5E81AC"
   },
   "todohighlight.isEnable": true,
   "editor.bracketPairColorization.enabled": true,
